@@ -209,12 +209,16 @@ open class PagingView: UIScrollView {
     }
     
     /// To scroll at Position. Cell configure is performed at IndexPath.
-    open func scrollToPosition(_ position: Position, indexPath: IndexPath? = nil, animated: Bool = false) {
+	open func scrollToPosition(_ position: Position, indexPath: IndexPath? = nil, animated: Bool = false, forceInfiniteScroll: Bool = true) {
         var scrollPosition = position
         if leftPagingEdge {
             switch position {
             case .left:
-                infiniteForced()
+				if forceInfiniteScroll {
+					infiniteForced()
+				} else {
+					return
+				}
             case .center:
                 configureAtPosition(.left, toIndexPath: indexPath)
                 infiniteIfNeeded()
@@ -229,7 +233,11 @@ open class PagingView: UIScrollView {
                 configureAtPosition(.right, toIndexPath: indexPath)
                 infiniteIfNeeded()
             case .right:
-                infiniteForced()
+				if forceInfiniteScroll {
+					infiniteForced()
+				} else {
+					return
+				}
             }
         }
         
