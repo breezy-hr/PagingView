@@ -7,7 +7,7 @@
 //
 
 /// Position of contents of PagingView.
-public enum Position: Int {
+public enum PagingViewPosition: Int {
     case left = 0
     case center
     case right

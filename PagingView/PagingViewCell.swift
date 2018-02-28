@@ -12,7 +12,7 @@ open class PagingViewCell: UIView {
     open internal(set) var indexPath = IndexPath(item: 0, section: 0)
     open internal(set) var reuseIdentifier: String?
     /// Position of contents
-    open internal(set) var position: Position?
+    open internal(set) var position: PagingViewPosition?
     
     open func prepareForReuse() {
     }

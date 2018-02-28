@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ContentView: UIView {
+class PagingContentView: UIView {
     typealias Cell = PagingViewCell
     
     func visible(_ rect: CGRect) -> Bool {
         return rect.intersects(frame)
     }
     
-    var position: Position?
+    var position: PagingViewPosition?
     
     var cell: Cell? {
         return subviews.first as? Cell
@@ -30,7 +30,7 @@ class ContentView: UIView {
         cell.isHidden = false
     }
     
-    func contentMoveFrom(_ contentView: ContentView?) {
+    func contentMoveFrom(_ contentView: PagingContentView?) {
         removeContentCell()
         
         if let cell = contentView?.cell {

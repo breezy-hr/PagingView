@@ -10,10 +10,10 @@
 		C74417C81BDFDFCF001ECD4B /* PagingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C74417C71BDFDFCF001ECD4B /* PagingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C74417D21BDFE025001ECD4B /* CellReuseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417CF1BDFE025001ECD4B /* CellReuseQueue.swift */; };
 		C74417D31BDFE025001ECD4B /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D01BDFE025001ECD4B /* Constraints.swift */; };
-		C74417D41BDFE025001ECD4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D11BDFE025001ECD4B /* ContentView.swift */; };
+		C74417D41BDFE025001ECD4B /* PagingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D11BDFE025001ECD4B /* PagingContentView.swift */; };
 		C74417D81BDFE02D001ECD4B /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D51BDFE02D001ECD4B /* PagingView.swift */; };
 		C74417D91BDFE02D001ECD4B /* PagingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D61BDFE02D001ECD4B /* PagingViewCell.swift */; };
-		C74417DA1BDFE02D001ECD4B /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D71BDFE02D001ECD4B /* Position.swift */; };
+		C74417DA1BDFE02D001ECD4B /* PagingViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74417D71BDFE02D001ECD4B /* PagingViewPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		C74417C91BDFDFCF001ECD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C74417CF1BDFE025001ECD4B /* CellReuseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellReuseQueue.swift; sourceTree = "<group>"; };
 		C74417D01BDFE025001ECD4B /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
-		C74417D11BDFE025001ECD4B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C74417D11BDFE025001ECD4B /* PagingContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingContentView.swift; sourceTree = "<group>"; };
 		C74417D51BDFE02D001ECD4B /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		C74417D61BDFE02D001ECD4B /* PagingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewCell.swift; sourceTree = "<group>"; };
-		C74417D71BDFE02D001ECD4B /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		C74417D71BDFE02D001ECD4B /* PagingViewPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +60,11 @@
 			children = (
 				C74417CF1BDFE025001ECD4B /* CellReuseQueue.swift */,
 				C74417D01BDFE025001ECD4B /* Constraints.swift */,
-				C74417D11BDFE025001ECD4B /* ContentView.swift */,
 				C74417C71BDFDFCF001ECD4B /* PagingView.h */,
 				C74417D51BDFE02D001ECD4B /* PagingView.swift */,
 				C74417D61BDFE02D001ECD4B /* PagingViewCell.swift */,
-				C74417D71BDFE02D001ECD4B /* Position.swift */,
+				C74417D11BDFE025001ECD4B /* PagingContentView.swift */,
+				C74417D71BDFE02D001ECD4B /* PagingViewPosition.swift */,
 				C74417C91BDFDFCF001ECD4B /* Info.plist */,
 			);
 			path = PagingView;
@@ -151,10 +151,10 @@
 			files = (
 				C74417D81BDFE02D001ECD4B /* PagingView.swift in Sources */,
 				C74417D31BDFE025001ECD4B /* Constraints.swift in Sources */,
-				C74417DA1BDFE02D001ECD4B /* Position.swift in Sources */,
+				C74417DA1BDFE02D001ECD4B /* PagingViewPosition.swift in Sources */,
 				C74417D91BDFE02D001ECD4B /* PagingViewCell.swift in Sources */,
 				C74417D21BDFE025001ECD4B /* CellReuseQueue.swift in Sources */,
-				C74417D41BDFE025001ECD4B /* ContentView.swift in Sources */,
+				C74417D41BDFE025001ECD4B /* PagingContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
