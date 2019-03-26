@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/KyoheiG3/assets/master/PagingView/logo.png" alt="LOGO" width="300" />
+<img src="https://user-images.githubusercontent.com/5707132/47400079-b0f8ac80-d776-11e8-9d26-9d0e26a2d532.png" alt="LOGO" width="300" />
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/PagingView.svg?style=flat)](http://cocoadocs.org/docsets/PagingView)
@@ -9,26 +9,22 @@ Infinite paging, Smart auto layout, Interface of similar to UIKit.
 
 #### [Appetize's Demo](https://appetize.io/app/030jqrt4nkm60rc0qu1wrvg4v8)
 
-![Demo](https://raw.githubusercontent.com/KyoheiG3/assets/master/PagingView/image_demo.gif)
+![Demo](https://user-images.githubusercontent.com/5707132/47400096-bd7d0500-d776-11e8-92a2-b79d4be1c4bb.gif)
 
 ## Requirements
 
-- Swift 3.0
-- iOS 7.0 or later
+- Swift 4.2
+- iOS 8.0 or later
 
 ## How to Install PagingView
-
-### iOS 8+
 
 #### Cocoapods
 
 Add the following to your `Podfile`:
 
 ```Ruby
-use_frameworks!
 pod "PagingView"
 ```
-Note: the `use_frameworks!` is required for pods made in Swift.
 
 #### Carthage
 
@@ -38,19 +34,7 @@ Add the following to your `Cartfile`:
 github "KyoheiG3/PagingView"
 ```
 
-### iOS 7
-
-Just add everything in the `PagingView.swift`, `PagingViewCell.swift` and `Constraints.swift` file to your project.
-
 ## Usage
-
-### import
-
-If target is ios8.0 or later, please import the `PagingView`.
-
-```swift
-import PagingView
-```
 
 ### PagingView Variable
 
